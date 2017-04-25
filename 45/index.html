@@ -1,0 +1,325 @@
+﻿<!doctype html>
+<html ng-app="myapp" lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>45</title>
+    <!-- Bootstrap for carousel, column formatting -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- jquery-ui for tabs, timer for carousel autoscroll -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/core.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/jquery.timer.js"></script>
+    <script src="js/searchlogo.js"></script>
+    <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+    </script>
+</head>
+
+<body>
+
+    <img src="img/45.jpg" />
+    <!--
+    <canvas id="myCanvas" width="113" height="102" style="border:0px solid #d3d3d3;">
+        Your browser does not support the HTML5 canvas tag.</canvas>
+
+    <script>
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+//ctx.moveTo(60, 60);
+ctx.lineWidth=10;
+ctx.strokeStyle="#FF0000";
+ctx.beginPath();
+ctx.lineJoin="miter";
+ctx.miterLimit=40;
+ctx.arc(35,25,20,Math.PI,0-0.29);
+ctx.arc(75,25,20,Math.PI+0.87,0);
+ctx.quadraticCurveTo(100, 50, 60, 95);
+ctx.quadraticCurveTo(10, 50,15, 24);
+ctx.stroke();
+ctx.font="bold 48px Arial";
+ctx.fillText("45",29,62);
+
+</script>
+-->
+    <style>
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 100%;
+            margin: auto;
+        }
+
+        .carousel-indicators li {
+            background-color: #669966;
+        }
+
+        .carousel-indicators .active {
+            background-color: #FF7600;
+        }
+
+    #tabs { font-family: arial;}	
+    #tabs ul {
+		list-style: none;
+                background-color: #fdfdfd;
+		padding: 0;
+		margin: 0;
+    }
+    
+	#tabs li {
+		float: left;
+background-color: #ffffff;
+		border: 0px solid #0ab;
+		margin: 0;
+    }
+
+	#tabs a:hover {
+		background: #ddf;
+	}
+
+table td, table td * {
+    vertical-align: top;
+}
+    </style>
+
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            <li data-target="#carousel" data-slide-to="3"></li>
+            <li data-target="#carousel" data-slide-to="4"></li>
+            <li data-target="#carousel" data-slide-to="5"></li>
+            <li data-target="#carousel" data-slide-to="6"></li>
+            <li data-target="#carousel" data-slide-to="7"></li>
+            <li data-target="#carousel" data-slide-to="8"></li>
+            <li data-target="#carousel" data-slide-to="9"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <!-- http:  //placehold.it/1200x315"   -->
+                    <img src="img/Ghosts.jpg" alt="Ghosts" style="text-align:center" />
+                    <!--
+                            <div class="carousel-caption">
+                                <h2 style="text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);">Text to put shadow on</h2>
+                            </div>
+                     -->
+                </div>
+                <div class="item">
+                    <img src="img/InvisibleLines.jpg" alt="Invisible Lines" />
+                    <div class="carousel-caption"></div>
+                </div>
+                <div class="item">
+                    <img src="img/KeepCalm.jpg" alt="..." />
+                </div>
+                <div class="item">
+                    <img src="img/MBMF.JPG" alt="..." />
+                </div>
+                <div class="item">
+                    <img src="img/NeonBlues.jpg" alt="..." />
+                </div>
+                <div class="item">
+                    <img src="img/Skyline.jpg" alt="..." />
+                </div>
+                <div class="item">
+                    <img src="img/nbl.jpg" alt="..." />
+                </div>
+                <div class="item">
+                    <img src="img/sfh.jpg" alt="..." />
+                </div>
+                <div class="item">
+                    <img src="img/exeter.jpg" alt="..." />
+                </div>
+                <div class="item">
+                    <img src="img/real.jpg" alt="..." />
+                </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+            <a class="right carousel-control" href="#carousel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+        </div>
+
+        <style>
+            /* http://www.greywyvern.com/code/php/binary2base64 */
+
+            .sort-true {
+                background: no-repeat right center url(data:image/gif;base64,R0lGODlhCgAKALMAAHFxcYKCgp2dnaampq+vr83NzeHh4f///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAkAAAgAIf/8SUNDUkdCRzEwMTIAAAUwYXBwbAIgAABtbnRyUkdCIFhZWiAH2QACABkACwAaAAthY3NwQVBQTAAAAABhcHBsAAAAAAAAAAAAAAAAAAAAAAAA9tYAAQAAAADTLWFwcGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtkc2NtAAABCAAAAvJkZXNjAAAD/AAAAG9nWFlaAAAEbAAAABR3dHB0AAAEgAAAABRyWFlaAAAElAAAABRiWFlaAAAEqAAAABRyVFJDAAAEvAAAAA5jcHJ0AAAEzAAAADhjaGFkAAAFBAAAACxn/1RSQwAABLwAAAAOYlRSQwAABLwAAAAObWx1YwAAAAAAAAARAAAADGVuVVMAAAAmAAACfmVzRVMAAAAmAAABgmRhREsAAAAuAAAB6mRlREUAAAAsAAABqGZpRkkAAAAoAAAA3GZyRlUAAAAoAAABKml0SVQAAAAoAAACVm5sTkwAAAAoAAACGG5iTk8AAAAmAAABBHB0QlIAAAAmAAABgnN2U0UAAAAmAAABBGphSlAAAAAaAAABUmtvS1IAAAAWAAACQHpoVFcAAAAWAAABbHpoQ04AAAAWAAAB1HJ1UlUAAAAiAAACpHBsUEwAAAAsAAACxgBZAGwAZQBpAG4AZf8AbgAgAFIARwBCAC0AcAByAG8AZgBpAGkAbABpAEcAZQBuAGUAcgBpAHMAawAgAFIARwBCAC0AcAByAG8AZgBpAGwAUAByAG8AZgBpAGwAIABHAOkAbgDpAHIAaQBxAHUAZQAgAFIAVgBCTgCCLAAgAFIARwBCACAw1zDtMNUwoTCkMOuQGnUoACAAUgBHAEIAIIJyX2ljz4/wAFAAZQByAGYAaQBsACAAUgBHAEIAIABHAGUAbgDpAHIAaQBjAG8AQQBsAGwAZwBlAG0AZQBpAG4AZQBzACAAUgBHAEIALQBQAHIAbwBmAGkAbGZukBoAIABSAEcAQgAgY8+P8GX/h072AEcAZQBuAGUAcgBlAGwAIABSAEcAQgAtAGIAZQBzAGsAcgBpAHYAZQBsAHMAZQBBAGwAZwBlAG0AZQBlAG4AIABSAEcAQgAtAHAAcgBvAGYAaQBlAGzHfLwYACAAUgBHAEIAINUEuFzTDMd8AFAAcgBvAGYAaQBsAG8AIABSAEcAQgAgAEcAZQBuAGUAcgBpAGMAbwBHAGUAbgBlAHIAaQBjACAAUgBHAEIAIABQAHIAbwBmAGkAbABlBB4EMQRJBDgEOQAgBD8EQAQ+BEQEOAQ7BEwAIABSAEcAQgBVAG4AaQB3AGUAcgBzAGEAbABuAHkAIABwAHIAbwBm/wBpAGwAIABSAEcAQgAAZGVzYwAAAAAAAAAUR2VuZXJpYyBSR0IgUHJvZmlsZQAAAAAAAAAAAAAAFEdlbmVyaWMgUkdCIFByb2ZpbGUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAABadQAArHMAABc0WFlaIAAAAAAAAPNSAAEAAAABFs9YWVogAAAAAAAAdE0AAD3uAAAD0FhZWiAAAAAAAAAoGgAAFZ8AALg2Y3VydgAAAAAAAAABAc0AAHRleHQAAAAAQ29weXJpZ2h0IDIwMDcgQXBwbGUgSW5jLkMsIGFsbCByaWdodHMgcmVzZXJ2ZWQuAHNmMzIAAAAAAAEMQgAABd7///MmAAAHkgAA/ZH///ui///9owAAA9wAAMBsACwAAAAACgAKAAAEJZAMIcakQZjNtyhFxwEIIRofAookUnapu26t+6KFLYe1TgQ5VwQAOw%3D%3D);
+            }
+
+            .sort-false {
+                background: no-repeat right center url(data:image/gif;base64,R0lGODlhCgAKALMAAHFxcYKCgp2dnaampq+vr83NzeHh4f///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAkAAAgAIf/8SUNDUkdCRzEwMTIAAAUwYXBwbAIgAABtbnRyUkdCIFhZWiAH2QACABkACwAaAAthY3NwQVBQTAAAAABhcHBsAAAAAAAAAAAAAAAAAAAAAAAA9tYAAQAAAADTLWFwcGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtkc2NtAAABCAAAAvJkZXNjAAAD/AAAAG9nWFlaAAAEbAAAABR3dHB0AAAEgAAAABRyWFlaAAAElAAAABRiWFlaAAAEqAAAABRyVFJDAAAEvAAAAA5jcHJ0AAAEzAAAADhjaGFkAAAFBAAAACxn/1RSQwAABLwAAAAOYlRSQwAABLwAAAAObWx1YwAAAAAAAAARAAAADGVuVVMAAAAmAAACfmVzRVMAAAAmAAABgmRhREsAAAAuAAAB6mRlREUAAAAsAAABqGZpRkkAAAAoAAAA3GZyRlUAAAAoAAABKml0SVQAAAAoAAACVm5sTkwAAAAoAAACGG5iTk8AAAAmAAABBHB0QlIAAAAmAAABgnN2U0UAAAAmAAABBGphSlAAAAAaAAABUmtvS1IAAAAWAAACQHpoVFcAAAAWAAABbHpoQ04AAAAWAAAB1HJ1UlUAAAAiAAACpHBsUEwAAAAsAAACxgBZAGwAZQBpAG4AZf8AbgAgAFIARwBCAC0AcAByAG8AZgBpAGkAbABpAEcAZQBuAGUAcgBpAHMAawAgAFIARwBCAC0AcAByAG8AZgBpAGwAUAByAG8AZgBpAGwAIABHAOkAbgDpAHIAaQBxAHUAZQAgAFIAVgBCTgCCLAAgAFIARwBCACAw1zDtMNUwoTCkMOuQGnUoACAAUgBHAEIAIIJyX2ljz4/wAFAAZQByAGYAaQBsACAAUgBHAEIAIABHAGUAbgDpAHIAaQBjAG8AQQBsAGwAZwBlAG0AZQBpAG4AZQBzACAAUgBHAEIALQBQAHIAbwBmAGkAbGZukBoAIABSAEcAQgAgY8+P8GX/h072AEcAZQBuAGUAcgBlAGwAIABSAEcAQgAtAGIAZQBzAGsAcgBpAHYAZQBsAHMAZQBBAGwAZwBlAG0AZQBlAG4AIABSAEcAQgAtAHAAcgBvAGYAaQBlAGzHfLwYACAAUgBHAEIAINUEuFzTDMd8AFAAcgBvAGYAaQBsAG8AIABSAEcAQgAgAEcAZQBuAGUAcgBpAGMAbwBHAGUAbgBlAHIAaQBjACAAUgBHAEIAIABQAHIAbwBmAGkAbABlBB4EMQRJBDgEOQAgBD8EQAQ+BEQEOAQ7BEwAIABSAEcAQgBVAG4AaQB3AGUAcgBzAGEAbABuAHkAIABwAHIAbwBm/wBpAGwAIABSAEcAQgAAZGVzYwAAAAAAAAAUR2VuZXJpYyBSR0IgUHJvZmlsZQAAAAAAAAAAAAAAFEdlbmVyaWMgUkdCIFByb2ZpbGUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAABadQAArHMAABc0WFlaIAAAAAAAAPNSAAEAAAABFs9YWVogAAAAAAAAdE0AAD3uAAAD0FhZWiAAAAAAAAAoGgAAFZ8AALg2Y3VydgAAAAAAAAABAc0AAHRleHQAAAAAQ29weXJpZ2h0IDIwMDcgQXBwbGUgSW5jLkMsIGFsbCByaWdodHMgcmVzZXJ2ZWQuAHNmMzIAAAAAAAEMQgAABd7///MmAAAHkgAA/ZH///ui///9owAAA9wAAMBsACwAAAAACgAKAAAEJRBJREKZsxQDsCSGIVzZFnYTGIqktp7fG46uzAn2TAyCMPC9QAQAOw%3D%3D);
+            }
+        </style>
+
+    </div>
+
+    <div id="tabs">
+        <ul>
+            <li><a href="#tabs-1">The Band</a></li>
+            <li><a href="#tabs-2">Recordings</a></li>
+            <li><a href="#tabs-3">Sample Lyrics</a></li>
+        </ul>
+        <div id="tabs-1">
+            <p>45 Are an Indie Rock band from Derby. Formed in xxxx their material is 100% original. They have built a considerable following in the area, playing regularly and have appeared several times at the prestigious Matlock Baths festival.</p>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <p>Alex</p>
+                        <img src="http://placehold.it/120x120"/>
+                        <p>Alex Grant</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p>Si</p>
+                        <img src="http://placehold.it/120x120" />
+                        <p>Simon Cartwright</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p>Jev</p>
+                        <img src="http://placehold.it/120x120" />
+                        <p>Jev Hirst</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p>Bob</p>
+                        <img src="http://placehold.it/120x120" />
+                        <p>Bob Newbold</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="tabs-2">
+            <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+        </div>
+        <div id="tabs-3">
+<table>
+<tr><td>
+<strong>Movie</strong><p></p>
+"You wouldn’t believe me if I told you<br/>
+They should get the cameras in<br/>
+We could make a movie<br/>
+But I’m not sure where we’d fit in<p></p>
+
+We could set the wheels in motion<br/>
+I see you’ve got the cameras in<br/>
+See the camera reels rolling<br/>
+But I’m not sure where we’d fit in<p></p>
+
+We could make a movie<br/>
+We should get the cameras in<br/>
+See your camera reels rolling<br/>
+But I’m not sure where we’d fit in"
+</p>
+</td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>
+<strong>New York Blue</strong><p></p>
+
+"New York, New York<br/>
+I’m sick of your neon blues<br/>
+New York, New York<br/>
+Dirty streets on dirty shoes<p></p>
+
+New York, New York<br/>
+Hopes dying on crowded streets<br/>
+New York, New York<br/>
+Stinking air and stinking heat<p></p>
+
+Midnight Greyhound, Central Station<br/>
+One way ticket, no reservation<br/>
+The open sky is calling me<br/>
+Cos she turned her back on me<p></p>
+
+Your city skyline filled my eyes<br/>
+Intoxication guaranteed<br/>
+Empire State, 5th Avenue<br/>
+Gives me everything I need"<p></p>
+</td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>
+<strong>Trick of the Light</strong><p></p>
+
+"The Hudson flowing at her back<br/>
+Slithers like a liquid train<br/>
+Breathing out on the highway<br/>
+And heading for the Interstate<p></p>
+
+Running away from a loveless town<br/>
+And hiding your soul<br/>
+Don’t want to be furniture<br/>
+Just want to let the dices roll<p></p>
+
+Driving down the freeway<br/>
+Wind blowing at her back<br/>
+So glad to be alive<br/>
+Living, living like you’re 25<p></p>
+
+The ghosts and the memories<br/>
+Fade like a trick of the light<br/>
+And as the wind blows her hair<br/>
+She’s heading for the edge of the night<p></p>
+
+She said<br/>
+I’m not gonna hang around<br/>
+I’m just a trick of the light<br/>
+I ain’t gonna hang around<br/>
+It’s just a trick of the light"<p></p>
+</td>
+</tr>
+</table>
+        </div>
+    </div>
+
+    <div style="background-color:gray;height:100px;float:none;">
+        <div style="line-height:100px;display:inline-block">
+            <div style="float:left;width:50px">&nbsp;</div>
+            <div style="float:left"><h2>Follow us on...</h2></div>
+            <div style="float:left;width:50px">&nbsp;</div>
+            <div style="float:left"><a href="https://www.youtube.com/user/45ismusic" target="_blank"><img src="img/yt.gif" /></a></div>
+            <div style="float:left;width:50px">&nbsp;</div>
+            <div style="float:left"><a href="https://www.facebook.com/45ismusic" target="_blank"><img src="img/fb.gif" /></a></div>
+            <div style="float:left;width:50px">&nbsp;</div>
+            <div style="float:left"><a href="https://soundcloud.com/45ismusic" target="_blank"><img src="img/sc.png" /></a></div>
+            <div style="float:left;width:50px">&nbsp;</div>
+            <div style="float:left">
+                <input type="button" value="See us here next" style="height: 50px; vertical-align: middle; line-height: 40px;" onClick="window.open('forth.htm','_blank');" />                <!--    window.open('forthcoming.pdf')">          alert('No shows at this date')     -->
+            </div>
+            <div style="float:left;width:50px">&nbsp;</div>
+            <div class="googlemap" style="float:left;overflow-x:scroll;width:200px;">
+                <a class="belpermap fancybox.iframe" title="Belper, Derbyshire" href="https://maps.google.com/?q=belper&z=15&output=embed"><img src="img/map.jpg" height="98%" width="98%"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FancyBox -->
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".belpermap").fancybox({
+                maxWidth: 800,
+                maxHeight: 600,
+                fitToView: false,
+                width: '70%',
+                height: '70%',
+                autoSize: false,
+                closeClick: false,
+                openEffect: 'elastic',
+                closeEffect: 'none'
+            });
+        });
+    </script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $('.carousel').carousel({
+            interval: 4000
+        })
+    </script>
+
+</body>
+
+</html>
